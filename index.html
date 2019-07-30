@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:400,700|Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+  <title>Massaging Hoop</title>
+</head>
+<body>
+
+  <!-- navigation -->
+
+  <nav id="nav" class="nav">
+    <div class="container nav__container">
+      <button id="navToggle" type="button" class="burger">
+        <svg class="burger__ico">
+          <use xlink:href="img/sprites/solid.svg#bars"></use>
+        </svg>
+      </button>
+      <ul id="nav-menu" class="nav__menu">
+        <li class="nav__list"><a href="#" class="nav__link" data-scroll="#about">О товаре</a></li>
+        <li class="nav__list"><a href="#" class="nav__link" data-scroll="#advantages">Преимущества</a></li>
+        <li class="nav__list"><a href="#" class="nav__link" data-scroll="#comments">Отзывы</a></li>
+        <li class="nav__list"><a href="#" class="nav__link" data-scroll="#intro">Оставить заявку</a></li>
+      </ul> <!-- /.nav__nemu -->
+      <a href="tel:+380739204646" class="nav__phone">
+        <svg class="nav__icon">
+          <use xlink:href="img/sprites/solid.svg#mobile-alt"></use>
+        </svg>
+        +38(073)920-46-46
+      </a>
+    </div>
+  </nav>
+  <!-- /.nav -->
+
+  <div id="intro" class="intro"> 
+    <div class="intro__inner">
+      <picture class="bg-girl">
+        <source type="image/webp" srcset="img/intro/bg-girl.webp 1x, img/intro/bg-girl@2x.webp 2x">
+        <img src="img/intro/bg-girl.png" srcset="img/intro/bg-girl@2x.png 2x" alt="">
+      </picture>
+      <div class="container intro__container">
+        <div class="intro__text">
+          <h1 class="intro__title">Massaging hoop exerciser</h1>
+          <p class="intro__subtitle">Массажный обруч с магнитами — уникальный домашний тренажер-для всех, кто желает похудеть и обрести великолепную фигуру.</p>
+        </div>
+        <!-- /.intro__text -->
+        <form id="intro-form" class="intro__form">
+          <h3 class="form__title">Оставьте заявку прямо сейчас и получите скидку <span>50%</span></h3>
+          <div class="form__price">
+            <span class="price__disable">514грн.</span>
+            <span class="price__active">257грн.</span>
+          </div>
+          <input type="text" class="intro__input" placeholder="Ваше имя:">
+          <input type="text" class="intro__input" placeholder="Ваш телефон:">
+          <button type="submit" class="intro__submit">Оставить заявку</button>
+        </form>
+        <!-- /.intro__form -->
+      </div>
+    </div> <!-- /.intro__inner -->
+  </div> <!-- /.intro -->
+
+  <div id="about" class="about">
+    <div class="container">
+      <h2 class="about__title">О товаре</h2>
+      <p class="about__text">Массажный обруч с магнитами — уникальный домашний массажный обруч-тренажер для всех, кто желает похудеть и обрести великолепную талию и стройную фигуру. Вы сожжете 100 калорий за каждые 10 минут тренировки!!!</p>
+      <div class="about__content">
+        <img src="img/about/tov2.jpg" alt="" class="about__img">
+        <div class="about__item">
+          <p class="about__text">Благодаря уникальному акупунктурному массажу, магнитный массажный обруч способствует быстрому сжиганию подкожного жира в области талии и живота. Уменьшает объемы талии и бедер. Под воздействием магнитного поля улучшается местное кровообращение и доставка к тканям и внутренним органам кислорода. </p>
+          <p class="about__text">Таким образом, происходит противовоспалительное, противоотечное, седативное, болеутоляющее действие. Магнитное поле обруча оказывает воздействие на развитие изменений в ткани организма.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.about -->
+
+
+  <div class="purchase">
+    <div class="purchase__inner">
+      <div class="container purchase__container">
+        <h3 class="form__title">Оставьте заявку прямо сейчас и получите скидку <span>50%</span></h3>
+        <div class="form__price">
+          <span class="price__disable">514грн.</span>
+          <span class="price__active">257грн.</span>
+        </div>
+        <a class="intro__submit" data-scroll="#intro">Оставить заявку</a>
+      </div>
+    </div>
+  </div>
+  <!-- /.purchase -->
+
+
+  <div id="advantages" class="advantages">
+    <div class="container">
+      <h2 class="advatages__title">Преимущества</h2>
+      <div class="advantages__icons-wrap">
+        <div class="icons__item">
+          <div class="icons__img">
+            <svg>
+              <use xlink:href="img/sprites/solid.svg#compress"></use>
+            </svg>
+          </div>
+          <p class="icons__text">Не занимает много места.</p>
+        </div>
+        <div class="icons__item">
+          <div class="icons__img">
+            <svg>
+              <use xlink:href="img/sprites/solid.svg#user-clock"></use>
+            </svg>
+          </div>
+          <p class="icons__text">Достаточно всего 10 минут занятий в день.</p>
+        </div>
+        <div class="icons__item">
+          <div class="icons__img">
+            <svg>
+              <use xlink:href="img/sprites/solid.svg#dumbbell"></use>
+            </svg>
+          </div>
+          <p class="icons__text">Результат уже через пару дней.</p>
+        </div>
+      </div>
+      <!-- /.advantages__icons-wrap -->
+
+      <h3 class="buy__title">Почему стоит купить массажный обруч-хулахуп:</h3>
+      <div class="buy">
+        <ul class="buy__list">
+          <li class="list__item"> 
+            <svg><use xlink:href="img/sprites/solid.svg#dot-circle"></use></svg>
+            Укрепляет мышцы талии и живота
+          </li>
+          <li class="list__item"> 
+            <svg><use xlink:href="img/sprites/solid.svg#dot-circle"></use></svg>
+            Подтягивает мышцы на боках
+          </li>
+          <li class="list__item"> 
+            <svg><use xlink:href="img/sprites/solid.svg#dot-circle"></use></svg>
+            Улучшает кровоток
+          </li>
+          <li class="list__item"> 
+            <svg><use xlink:href="img/sprites/solid.svg#dot-circle"></use></svg>
+            Эффективнее обычных обручей
+          </li>
+          <li class="list__item"> 
+            <svg><use xlink:href="img/sprites/solid.svg#dot-circle"></use></svg>
+            Массажирует тело
+          </li>
+          <li class="list__item"> 
+            <svg><use xlink:href="img/sprites/solid.svg#dot-circle"></use></svg>
+            Легок в использовании
+          </li>
+          <li class="list__item"> 
+            <svg><use xlink:href="img/sprites/solid.svg#dot-circle"></use></svg>
+            Компактный – удобно хранить
+          </li>
+        </ul>
+        <div class="buy__video">
+            <div class="video__wrap">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ILDtDhVfFgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.advantages -->
+
+
+
+  <div id="comments" class="comments">
+    <div class="container">
+      <h2 class="comments__title">Отзывы</h2>
+      <div class="comments__item">
+        <img src="img/comments/profile1.jpg" alt="" class="comments__photo">
+        <div class="comments__content">
+          <div class="comments__header">
+            <h4 class="comments__name">Дарья</h4>
+            <div class="comments__date">
+              <span class="date__number">24</span>
+              <span class="date__mounth">Июня</span>
+            </div>
+          </div>
+          <p class="comments__text">Как и многие молодые дамы  задумалась я над тем, как привести в порядок свою талию. Пересмотрела и изучила разные варианты, остановилась на Massaging hoop exerciser , привлек небольшой вес, и заманчивая цена. Могу сказать, что обручем я довольна и результат от него действительно есть. И купив его, вы точно останетесь довольны.</p>
+        </div>
+      </div> <!-- /.commets__item -->
+      <div class="comments__item">
+        <img src="img/comments/profile2.jpg" alt="" class="comments__photo">
+        <div class="comments__content">
+          <div class="comments__header">
+            <h4 class="comments__name">Елена</h4>
+            <div class="comments__date">
+              <span class="date__number">5</span>
+              <span class="date__mounth">Июля</span>
+            </div>
+          </div>
+          <p class="comments__text">Как быстро избавиться от живота и не испортить своё здоровье. Если хотите сделать вашу талию тоньше, а живот – более подтянутым и плоским, то Вам сюда.</p>
+        </div>
+      </div> <!-- /.commets__item -->
+      <div class="comments__item">
+        <img src="img/comments/profile3.jpg" alt="" class="comments__photo">
+        <div class="comments__content">
+          <div class="comments__header">
+            <h4 class="comments__name">Виктория</h4>
+            <div class="comments__date">
+              <span class="date__number">30</span>
+              <span class="date__mounth">Июля</span>
+            </div>
+          </div>
+          <p class="comments__text">Начиталась про занятия с хулахупом, решила попробовать не просто обруч, а с выпукластями. Выбрала Massaging hoop exerciser. В упаковке он в разобраном виде, собирается быстро и легко. Ухаживать за обручем не сложно. Сейчас я им пользуюсь почти каждый день. Советую покупать</p>
+        </div>
+      </div> <!-- /.commets__item -->
+    </div>
+  </div>
+  <!-- /.comments -->
+
+  <footer class="footer">
+    <div class="container">
+      <a href="tel:+380739204646" class="footer__link">+38(073)920-46-46</a>
+    </div>
+  </footer>
+  <!-- /.footer -->
+
+  <!-- JS Files -->
+  <script src="js/libs.min.js"></script>
+</body>
+</html>
